@@ -4,35 +4,89 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Foundation</title>
-    <link rel="stylesheet" href="css/app.css" />
+    <link rel="stylesheet" href="css/app.css" >
+
     <script src="bower_components/modernizr/modernizr.js"></script>
+    <link rel="stylesheet" href="css/style.css" >
   </head>
-  <body>
+  <body class="off-canvas hide-extras">
 
-    <div class="contain-to-grid sticky">
-      <nav class="top-bar" data-topbar role="navigation" data-options="sticky_on: large">
-        <ul class="title-area">
-     <li class="name">
-       <h1><a href="#">DessHub Portfolio</a></h1>
-     </li>
-      <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
-     <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
-   </ul>
-
-   <section class="top-bar-section">
-
-     <ul class="right">
-       <li class="active"><a href="#">Home</a></li>
-       <li class="active"><a href="#">About Me</a></li>
-       <li class="active"><a href="#">Portfolio</a></li>
-     </ul>
-   </section>
-      </nav>
+    <div class="contain-to-grid sticky" style="background-color:#936c6c">
+       <div class="row">
+         <div class="medium-12 column">
+          <div class="row">
+            <div class="medium-offset-5 columns ">
+              <div >
+                <img src="images/prof.jpg" class="img-prof">
+              </div>
+           </div>
+         </div>
+      </div>
+     </div>
+     <div class="row">
+       <div class="medium-offset-4">
+        <h1>DESS  HUB</h1>
+      </div>
+   </div>
+   <div class="row">
+     <div class="medium-12 columns">
+       <nav class="top-bar" data-topbar role="navigation" >
+         <section class="top-bar-section">
+           <!-- Right Nav Section -->
+           <ul>
+             <li class="active"><a href="#">Home</a></li>
+             <li class="active"><a href="#">Bio</a></li>
+             <li class="active"><a href="#">portfolio</a></li>
+             <li class="active"><a href="#">Links</a></li>
+             </li>
+           </ul>
+           </section>
+       </nav>
+     </div></div>
     </div>
+
+    <div class="row">
+<div class="medium-12 columns">
+<h1 style="align:center">IM THE BOSS</h1>
+
+</div>
+    </div>
+
+<div class="row">
+  <div class="medium-offset-3 medium-6 medium-offset-3 column">
+    <div class="orbit-container">
+      <ul class="example-orbit-content" data-orbit>
+        <li class="active">
+        <img src="images/horse.jpg" alt="slide 1" />
+        <div class="orbit-caption">
+          Caption one.
+        </div>
+      </li>
+      <li class="active">
+      <img src="images/p1.jpg" alt="slide 2" />
+      <div class="orbit-caption">
+        Caption Two.
+      </div>
+    </li>>
+      <li class="active">
+      <img src="images/p2.jpg" alt="slide 3" />
+      <div class="orbit-caption">
+        Caption Three.
+      </div>
+    </li>
+    </ul>
+</div>
+</div>
+</div>
+
 
 
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <script src="bower_components/foundation/js/foundation.min.js"></script>
     <script src="js/app.js"></script>
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/foundation/foundation.js"></script>
+    <script src="js/orbit.js"></script>
+    <script src="js/foundation/foundation.orbit.js"></script>
   </body>
 </html>
